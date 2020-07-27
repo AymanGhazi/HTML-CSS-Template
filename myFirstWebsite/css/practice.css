@@ -1,0 +1,586 @@
+                            body {
+                                background-color: rgb(238, 235, 235);
+                            }
+                            /*main rules*/
+                            
+                            .container {
+                                width: 1170px;
+                                margin: auto;
+                            }
+                            
+                            .clearfix {
+                                clear: both;
+                            }
+                            /*end main rules*/
+                            /*Start header*/
+                            
+                            .header .slider {
+                                background-color: #fff;
+                                height: 500px;
+                                background-image: url(/photo/compass.jpg);
+                                background-size: cover;
+                            }
+                            
+                            .header .slider .intro h2 {
+                                margin: 0px auto;
+                                padding: 5px 0;
+                                border-top: solid #fff 4px;
+                                border-bottom: solid#fff 4px;
+                                width: 594px;
+                            }
+                            
+                            .header .slider .intro button {
+                                margin-top: 30px;
+                                font-weight: bold;
+                                background: none;
+                                border: solid 3px #fff;
+                                padding: 10px 20px;
+                                color: #f5f5f5;
+                            }
+                            
+                            .header .slider .intro {
+                                height: 600px;
+                                text-align: center;
+                                color: #f5f5f5;
+                                text-transform: capitalize;
+                                padding-top: 108px;
+                                font-size: 30px;
+                            }
+                            
+                            .header .navbar {
+                                background-color: #222C2D;
+                                color: #fff;
+                                overflow: hidden;
+                            }
+                            
+                            .header .navbar h2 {
+                                text-transform: capitalize;
+                            }
+                            
+                            .header .navbar h2 span {
+                                color: #23A25D;
+                            }
+                            
+                            .header .navbar ul {
+                                list-style: none;
+                                overflow: hidden;
+                                padding-left: 0px;
+                                float: right;
+                            }
+                            
+                            .header .navbar ul li {
+                                float: left;
+                                padding: 10px;
+                            }
+                            
+                            .header .navbar ul li a {
+                                color: #fff;
+                                text-decoration: none;
+                            }
+                            
+                            .header .navbar ul li.active a,
+                            .header .navbar ul li a:hover {
+                                color: #2BBE77;
+                            }
+                            /*end header*/
+                            /*start features*/
+                            
+                            .features {
+                                overflow: hidden;
+                                padding-top: 30px;
+                                padding-bottom: 50px;
+                            }
+                            
+                            .features .feat {
+                                width: 33.3333%;
+                                height: 200px;
+                            }
+                            
+                            .features .feat p {
+                                text-align: justify;
+                                padding: 0 20px 0 0;
+                            }
+                            
+                            .features.feat h1 {
+                                text-transform: capitalize;
+                                color: #444;
+                            }
+                            /*end features*/
+                            /*start about me*/
+                            
+                            .aboutme {
+                                background-color: rgb(226, 225, 225);
+                                overflow: hidden;
+                                box-sizing: content-box
+                            }
+                            
+                            .aboutme .image {
+                                width: 40%;
+                            }
+                            
+                            .aboutme .image img {
+                                max-width: 500px 400px;
+                            }
+                            
+                            .aboutme .inf {
+                                text-align: left;
+                                width: 58%;
+                                padding-top: 0%;
+                            }
+                            
+                            .aboutme .inf h2,
+                            h3 {
+                                margin: 30px 0 19px 9px;
+                                color: #444;
+                            }
+                            
+                            .aboutme .inf>p {
+                                margin: 0px 0 10px 49px;
+                            }
+                            
+                            .aboutme .inf>p:last-of-type {
+                                margin-top: 25px;
+                                margin-bottom: 35px;
+                            }
+                            
+                            .aboutme .hobbies {
+                                overflow: hidden;
+                                margin: 15px 17px 0 10px;
+                            }
+                            
+                            .aboutme .hobbies .content {
+                                width: 100%;
+                                min-height: 100px;
+                                overflow: hidden;
+                            }
+                            
+                            .aboutme .hobbies .content .icon {
+                                width: 12%;
+                                margin-right: 5px;
+                            }
+                            
+                            .aboutme .hobbies .content .icon i {
+                                margin: 30px;
+                                margin: 40px 10px 0 0;
+                                color: #2dcc70;
+                            }
+                            
+                            .aboutme .hobbies .content .text {
+                                width: 83%;
+                                padding-left: 13px;
+                            }
+                            
+                            .aboutme .hobbies .content .text p {
+                                margin-top: 0%;
+                            }
+                            
+                            .aboutme .hobbies .content .text h3 {
+                                margin-bottom: 13px;
+                            }
+                            /*end about me*/
+                            /*start my skills*/
+                            
+                            .myskills {
+                                padding-top: 30px;
+                                padding-bottom: 50px;
+                                overflow: hidden;
+                                background-color: #F2F2F2;
+                            }
+                            
+                            .myskills .skills,
+                            .myskills .progress {
+                                width: 50%;
+                            }
+                            
+                            .myskills .skills h1 {
+                                color: #555;
+                                margin: 25px 0 20px 40px;
+                            }
+                            
+                            .myskills .skills>p:last-of-type {
+                                margin-top: 25px;
+                                margin-bottom: 35px;
+                            }
+                            
+                            .myskills .skills>p {
+                                margin: 0px 0 10px 49px;
+                            }
+                            
+                            .myskills .skills button {
+                                background-color: none;
+                                border: 3px solid rgb(103, 182, 144);
+                                padding: 10px 30px;
+                                color: rgb(103, 182, 144);
+                                font-size: larger;
+                                margin-left: 40px;
+                            }
+                            
+                            .myskills .progress .technique {
+                                margin-left: 30px;
+                            }
+                            
+                            .myskills .progress .technique h3 {
+                                color: #555;
+                            }
+                            
+                            .myskills .progress .technique div {
+                                background-color: #f2f2f2;
+                                height: 25px;
+                            }
+                            
+                            .myskills .progress .technique div span {
+                                background-color: #23A25D;
+                                width: 80%;
+                                height: 30px;
+                                display: block;
+                                line-height: 30px;
+                                text-align: end;
+                                padding-right: 10px;
+                                color: #f2f2f2;
+                                font-weight: bold;
+                            }
+                            /*end my skills*/
+                            /*start resume*/
+                            
+                            .resume {
+                                background-color: rgb(226, 225, 225);
+                                text-align: center;
+                                height: 300px;
+                                padding-top: 50px;
+                                padding-bottom: 70px;
+                            }
+                            
+                            .resume h1 {
+                                font-weight: bolder;
+                                color: #666;
+                            }
+                            
+                            .resume button {
+                                background-color: none;
+                                border: 3px solid rgb(103, 182, 144);
+                                padding: 10px 30px;
+                                color: rgb(103, 182, 144);
+                                font-size: larger;
+                                margin-left: 40px;
+                            }
+                            
+                            .resume p {
+                                line-height: 39px;
+                                text-align: center;
+                                padding-bottom: 5px;
+                                padding: 0 20px;
+                                cursor: pointer;
+                            }
+                            /*end resume*/
+                            /*start my education*/
+                            
+                            .education {
+                                padding-top: 30px;
+                                padding-bottom: 30px;
+                                overflow: hidden;
+                                background-color: #f2f2f2;
+                            }
+                            
+                            .education .main {
+                                width: 50%;
+                                float: left;
+                            }
+                            
+                            .education .main h1 {
+                                color: #555;
+                                margin: 25px 0 20px 6px;
+                            }
+                            
+                            .education .main>p:last-of-type {
+                                margin-top: 25px;
+                                margin-bottom: 35px;
+                            }
+                            
+                            .education .main>p {
+                                margin: 0px 0 10px 49px;
+                            }
+                            
+                            .education .edu {
+                                width: 45%;
+                                float: left;
+                                margin-left: 5%;
+                            }
+                            
+                            .education .edu h1 {
+                                margin-top: 80px;
+                                margin-bottom: 14px;
+                            }
+                            
+                            .education .edu .myexp span {
+                                display: block;
+                                margin-bottom: 12px;
+                                color: #858A8D;
+                            }
+                            
+                            .education .edu .myexp button {
+                                display: inline-block;
+                                border: 5px;
+                                background-color: rgb(85, 142, 114);
+                                color: #fff;
+                                display: inline-block;
+                                padding: 9px 16px
+                            }
+                            
+                            .education .edu hr {
+                                margin: 20px 0;
+                            }
+                            
+                            .education .edu .work2 p,
+                            .education .edu .work1 p {
+                                line-height: 1.7;
+                                color: #3c3c3c;
+                            }
+                            
+                            .education .edu hr {
+                                margin: 30px 0;
+                                height: 6px;
+                                border: 0px;
+                                background-color: #888;
+                            }
+                            
+                            .education .edu .work2 h1 {
+                                margin-top: 60px;
+                            }
+                            /*end my education*/
+                            /*start my work experience*/
+                            
+                            .workexperience {
+                                padding-top: 45px;
+                                padding-bottom: 40px;
+                                overflow: hidden;
+                            }
+                            
+                            .workexperience .main {
+                                width: 50%;
+                            }
+                            
+                            .workexperience .main h1 {
+                                color: #555;
+                            }
+                            
+                            .workexperience .main p {
+                                margin: 0px 0 10px 49px;
+                            }
+                            
+                            .workexperience .exp {
+                                width: 45%;
+                                margin-left: 5%;
+                            }
+                            
+                            .workexperience .exp span {
+                                display: block;
+                                margin: 8px;
+                                color: #858A8D;
+                            }
+                            
+                            .workexperience .exp button {
+                                display: inline-block;
+                                border: 5px;
+                                background-color: rgb(85, 142, 114);
+                                color: #fff;
+                                display: inline-block;
+                                padding: 9px 16px
+                            }
+                            
+                            .workexperience .exp h1 {
+                                margin: 25px 0 20px 6px;
+                                margin-top: 70px;
+                            }
+                            
+                            .workexperience .exp p {
+                                margin: 0px 0 10px 49px;
+                            }
+                            /*end my work Experience*/
+                            /*start testemonials*/
+                            
+                            .testemonials {
+                                background-color: #F2F2F2;
+                                text-align: center;
+                                padding-right: 50px;
+                                padding-bottom: 70px;
+                                padding-top: 50px;
+                            }
+                            
+                            .testemonials q {
+                                color: #777;
+                                font: italic bold 18px/1.8 Arial, tahoma;
+                            }
+                            
+                            .testemonials h3 {
+                                color: #777;
+                                margin-bottom: 30px;
+                            }
+                            
+                            .testemonials ul {
+                                list-style: none;
+                                padding-left: 0;
+                                text-align: center;
+                                margin-top: 20px;
+                            }
+                            
+                            .testemonials ul li {
+                                width: 15px;
+                                height: 15px;
+                                border: 2px solid #23A25D;
+                                display: inline-block;
+                                cursor: pointer;
+                            }
+                            
+                            .testemonials ul li:hover,
+                            .testemonials ul li.active {
+                                background-color: #23A25D;
+                            }
+                            /*end testemonials*/
+                            /*start portofolio*/
+                            
+                            .portofolio {
+                                padding-top: 50px;
+                                padding-bottom: 70px;
+                                text-align: center;
+                            }
+                            
+                            .portofolio h2 {
+                                font-weight: bolder;
+                            }
+                            
+                            .portofolio p {
+                                margin-top: 30px;
+                            }
+                            
+                            .portofolio .ourwork {
+                                overflow: hidden;
+                            }
+                            
+                            .portofolio .ourwork>div {
+                                float: left;
+                                width: 33.3333%;
+                                margin-bottom: 10px;
+                            }
+                            
+                            .portofolio .ourwork>div img {
+                                width: 92%;
+                                margin: 10px;
+                            }
+                            /*end portofolio*/
+                            /*start contactme*/
+                            
+                            .contactme {
+                                background-color: #252F31;
+                                overflow: hidden;
+                                padding-top: 50px;
+                                padding-bottom: 70px;
+                            }
+                            
+                            .contactme h1 {
+                                color: #fff;
+                                margin-left: 30px;
+                                text-align: left;
+                                padding-bottom: 20px;
+                            }
+                            
+                            .contactme p {
+                                margin-left: 40px;
+                                text-align: left;
+                                color: #888;
+                            }
+                            
+                            .contactme p strong {
+                                color: #d1DaD6;
+                            }
+                            
+                            .contactme .contactinf {
+                                width: 50%;
+                            }
+                            
+                            .contactme .forminf {
+                                width: 45%;
+                                margin-left: 5%;
+                                padding-top: 60px;
+                            }
+                            
+                            .contactme .forminf label {
+                                display: block;
+                                color: #d1DaD6;
+                                margin-bottom: 20px;
+                            }
+                            
+                            .contactme .forminf input {
+                                margin-bottom: 20px;
+                                padding: 10px;
+                                background-color: #4b5554;
+                                color: #fff;
+                                border: 0;
+                                width: 80%;
+                            }
+                            
+                            .contactme .forminf textarea {
+                                height: 300px;
+                                background-color: #4b5554;
+                                padding: 10px;
+                                color: #fff;
+                                border: 0;
+                                width: 80%;
+                            }
+                            
+                            .contactme .forminf input[type="submit"] {
+                                background-color: #191E22;
+                                padding: 10px 20px;
+                                margin-top: 35px;
+                                color: #fff;
+                                border: 0;
+                                width: 150px;
+                            }
+                            /*end contact me*/
+                            /*start footer*/
+                            
+                            .footer {
+                                background-color: #191E22;
+                                color: #666B6E;
+                                padding: 20px 0;
+                                overflow: hidden;
+                                text-align: end;
+                            }
+                            
+                            .footer .ul {
+                                list-style: none;
+                                padding-left: 0;
+                                margin: 0;
+                                float: right;
+                            }
+                            
+                            .footer ul li {
+                                display: inline-block;
+                            }
+                            
+                            .footer ul li:hover {
+                                color: #fff;
+                            }
+                            /*start my frame work*/
+                            
+                            .mybutton {
+                                background-color: none;
+                                border: 3px solid rgb(103, 182, 144);
+                                color: rgb(103, 182, 144);
+                                font-size: larger;
+                                margin-left: 40px;
+                                cursor: pointer;
+                            }
+                            
+                            .fl-left {
+                                float: left;
+                            }
+                            
+                            p {
+                                line-height: 1.7;
+                                color: #888;
+                            }
+                            
+                            .h2 {
+                                color: #555;
+                            }
+                            /*end my framework*/
